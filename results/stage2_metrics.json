@@ -1,0 +1,18 @@
+{
+  "test_accuracy": 0.9593,
+  "test_f1_macro": 0.9376,
+  "test_recall_class0": 0.9923,
+  "test_recall_class1": 0.8419,
+  "best_threshold": 0.64,
+  "all_thresholds_passed": true,
+  "confusion_matrix": [
+    [
+      2324,
+      18
+    ],
+    [
+      104,
+      554
+    ]
+  ]
+}

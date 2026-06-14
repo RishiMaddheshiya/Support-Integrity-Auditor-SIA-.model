@@ -1,0 +1,128 @@
+{
+  "correctly_detected": 7,
+  "total_tickets": 10,
+  "bonus_achieved": true,
+  "threshold_used": 0.6400000000000003,
+  "results": [
+    {
+      "id": "ADV-001",
+      "subject": "Small question about database access",
+      "description": "Hi Support hope you are doing well. Just wanted to mention that our entire production database seems completely inaccessible and all customer records from last 3 years appear to be gone. No rush but wanted to let you know!",
+      "assigned_priority": "Low",
+      "true_severity": "Critical",
+      "expected_mismatch": 1,
+      "rt": 180.0,
+      "predicted_mismatch": 1,
+      "probability": 0.95,
+      "correct": true
+    },
+    {
+      "id": "ADV-002",
+      "subject": "Minor login inconvenience",
+      "description": "Good morning team. None of our 500 enterprise users can log in to the platform since last night. Our board presentation is in 2 hours. Just flagging it as a low priority matter.",
+      "assigned_priority": "Low",
+      "true_severity": "Critical",
+      "expected_mismatch": 1,
+      "rt": 150.0,
+      "predicted_mismatch": 0,
+      "probability": 0.4891,
+      "correct": false
+    },
+    {
+      "id": "ADV-003",
+      "subject": "Routine check - payment system",
+      "description": "Dear Support I am writing to bring to your attention that our payment processing module has not completed a single transaction in the last 4 hours. Revenue loss is accumulating. Please address at your earliest convenience.",
+      "assigned_priority": "Medium",
+      "true_severity": "Critical",
+      "expected_mismatch": 1,
+      "rt": 190.0,
+      "predicted_mismatch": 1,
+      "probability": 0.95,
+      "correct": true
+    },
+    {
+      "id": "ADV-004",
+      "subject": "Question about data syncing",
+      "description": "Hello hope you are having a lovely day. Just wanted to mention in the friendliest way that our backup system has been corrupting data for 48 hours silently. A client reported missing records. Low priority please.",
+      "assigned_priority": "Low",
+      "true_severity": "Critical",
+      "expected_mismatch": 1,
+      "rt": 160.0,
+      "predicted_mismatch": 0,
+      "probability": 0.5631,
+      "correct": false
+    },
+    {
+      "id": "ADV-005",
+      "subject": "Small API hiccup",
+      "description": "Hi there just a tiny note. Our security monitoring API stopped sending alerts completely 3 days ago. We have no visibility into potential intrusions or threats. I do not want to trouble anyone. Low priority please.",
+      "assigned_priority": "Low",
+      "true_severity": "Critical",
+      "expected_mismatch": 1,
+      "rt": 140.0,
+      "predicted_mismatch": 1,
+      "probability": 0.62,
+      "correct": true
+    },
+    {
+      "id": "ADV-006",
+      "subject": "CRITICAL EMERGENCY URGENT PLEASE HELP NOW",
+      "description": "THIS IS A CATASTROPHIC FAILURE! The color of the submit button changed from blue to slightly darker blue. Our branding is completely destroyed! SLA VIOLATION! We need this fixed in the next 5 minutes!",
+      "assigned_priority": "Critical",
+      "true_severity": "Low",
+      "expected_mismatch": 1,
+      "rt": 5.0,
+      "predicted_mismatch": 1,
+      "probability": 0.9,
+      "correct": true
+    },
+    {
+      "id": "ADV-007",
+      "subject": "URGENT DISASTER - font changed",
+      "description": "ESCALATE IMMEDIATELY! The font in our admin dashboard title changed from Arial to Helvetica. This is completely unacceptable! Our CEO noticed and is furious! This is a CRITICAL issue that needs to be fixed RIGHT NOW!",
+      "assigned_priority": "Critical",
+      "true_severity": "Low",
+      "expected_mismatch": 1,
+      "rt": 8.0,
+      "predicted_mismatch": 1,
+      "probability": 0.9,
+      "correct": true
+    },
+    {
+      "id": "ADV-008",
+      "subject": "SLA BREACH - email signature issue",
+      "description": "URGENT URGENT URGENT! Our automated email signature has an extra space before the phone number. This is a FAILURE of your system! We demand IMMEDIATE escalation to the highest level! This is completely broken!",
+      "assigned_priority": "High",
+      "true_severity": "Low",
+      "expected_mismatch": 1,
+      "rt": 10.0,
+      "predicted_mismatch": 0,
+      "probability": 0.2165,
+      "correct": false
+    },
+    {
+      "id": "ADV-009",
+      "subject": "EMERGENCY - report date format",
+      "description": "CRITICAL OUTAGE ALERT! The date format in exported reports shows MM/DD/YYYY instead of DD/MM/YYYY. Our entire reporting process is completely down! This is a catastrophic data failure! Escalate to CTO immediately!",
+      "assigned_priority": "Critical",
+      "true_severity": "Low",
+      "expected_mismatch": 1,
+      "rt": 12.0,
+      "predicted_mismatch": 1,
+      "probability": 0.7,
+      "correct": true
+    },
+    {
+      "id": "ADV-010",
+      "subject": "DOWN SYSTEM - tooltip missing",
+      "description": "EMERGENCY ESCALATION REQUIRED! The tooltip text on the help icon in the settings page has disappeared! Users are completely unable to use the product! SLA breach imminent! Broken broken broken! Fix immediately!",
+      "assigned_priority": "High",
+      "true_severity": "Low",
+      "expected_mismatch": 1,
+      "rt": 7.0,
+      "predicted_mismatch": 1,
+      "probability": 0.8,
+      "correct": true
+    }
+  ]
+}

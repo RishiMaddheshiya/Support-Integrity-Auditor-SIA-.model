@@ -1,1 +1,5 @@
-
+Signal,Agreement_with_fused
+llm_severity_score,75.8%
+cluster_severity,78.9%
+regression_severity,56.6%
+rule_nlp_severity,64.4%
